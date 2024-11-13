@@ -4,16 +4,26 @@
 
 @*Diseño exterior de las listas*@
 <div class="mb-3">
+    @*Boton para crear listas*@
     <div>
-        Lista 1
-        Lista 2
-        Lista 3
-        ...
+        <span class="btn btn-outline-success">Agregar lista</span>
+    </div>
+    <div>
+        <h3><span>List 1</span></h3>
+        <h3><span>List 2</span></h3>
+        <h3><span>List 3</span></h3>
     </div>
 </div>
 
-@*Diseño interior de las listas*@
+@*Diseño interior de las listas (oculto)*@
 <div>
+    @*Botones para eliminar o editar la lista.*@
+    <div>
+        <h2>Nombre de la lista</h2>
+        <span class="btn btn-outline-warning">Editar lista</span>
+        <span class="btn btn-outline-danger">Eliminar lista</span>
+    </div>
+    @*Diseño de título agregado a la lista.*@
     <div class="img-fluid" id="movie-info">
         <img src="..." class="img-fluid" alt="...">
     </div>
